@@ -22,8 +22,10 @@ const PM = new ProductManager();
     console.log(secondGet);
 
     // Try to get certain id's
+    let get_0 = await PM.getProductById(0);
     let get_1 = await PM.getProductById(1);
     let get_15 = await PM.getProductById(15);
+    console.log(get_0);
     console.log(get_1);
     console.log(get_15);    
 
